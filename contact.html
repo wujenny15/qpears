@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Qpears</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announce">Customer care hours: whenever the pear is awake</div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="">
+        Qpears
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-primary btn-small" href="shop.html">Shop objects</a>
+        <button class="nav-toggle" type="button" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="page-hero">
+      <p class="eyebrow">Correspondence</p>
+      <h1>The till is not live, so please write.</h1>
+      <p class="prose">Buy buttons will open Square as soon as a shop URL is pasted into <code>SQUARE_SHOP_URL</code>. Until then, this desk is the cashier, the warehouse, and the entire legal department.</p>
+    </section>
+
+    <section class="section contact-grid">
+      <div class="contact-card">
+        <h2>Atelier desk</h2>
+        <p>Email <a href="mailto:hello@qpears.example">hello@qpears.example</a> with the object, a postal address, and whether the parcel should rattle on arrival. Rattle is our signature.</p>
+        <p>Have a Square Online store already? Drop the link in <code>shop.js</code> and every Add to bag button becomes checkout.</p>
+      </div>
+      <form class="contact-form" action="mailto:hello@qpears.example" method="get" enctype="text/plain">
+        <h2>A short note</h2>
+        <label for="name">Name</label>
+        <input id="name" name="name" autocomplete="name" placeholder="A serious adult">
+        <label for="body">Message</label>
+        <textarea id="body" name="body" placeholder="I would like one crumb, professionally packed."></textarea>
+        <button class="btn btn-primary" type="submit" style="margin-top:18px">Send to the pears</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>Qpears</h2>
+        <p>We read every letter. We answer the ones we can find.</p>
+      </div>
+      <div>
+        <h3>Shop</h3>
+        <ul><li><a href="shop.html">All objects</a></li></ul>
+      </div>
+      <div>
+        <h3>House</h3>
+        <ul><li><a href="about.html">About</a></li></ul>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <ul><li>Whenever the intern pear is on shift</li></ul>
+      </div>
+    </div>
+    <div class="wrap legal">
+      <span>© 2026 Qpears</span>
+      <a href="index.html">Back to the front of house</a>
+    </div>
+  </footer>
+  <script src="shop.js"></script>
+</body>
+</html>

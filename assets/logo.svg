@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-labelledby="title">
+  <title id="title">Qpears pear</title>
+  <ellipse cx="62" cy="128" rx="28" ry="6" fill="#1F2A1A" opacity=".12"/>
+  <path d="M60 22c18 8 38 32 38 58 0 24-16 42-38 42S22 104 22 80C22 54 42 30 60 22z" fill="#7CB342"/>
+  <path d="M60 22c14 8 30 30 32 52 2 18-8 38-26 46-2-22 6-46-6-98z" fill="#8FBF4D"/>
+  <path d="M58 8c2 10 1 18-6 26" fill="none" stroke="#3D5C2A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M58 18c10-8 18-6 22 2" fill="none" stroke="#3D5C2A" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="72" cy="70" r="4.5" fill="#1F2A1A"/>
+  <circle cx="48" cy="72" r="4.5" fill="#1F2A1A"/>
+  <path d="M50 88c8 8 16 8 24 0" fill="none" stroke="#1F2A1A" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="94" cy="28" r="16" fill="#F2D56B" stroke="#1F2A1A" stroke-width="3"/>
+  <text x="94" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#1F2A1A">Q</text>
+</svg>
