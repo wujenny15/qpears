@@ -21,6 +21,31 @@ Pages:
 
 **Add to bag** opens [https://qpears.square.site](https://qpears.square.site). Change that URL in `shop.js` if the Square site ever moves.
 
+## Live site
+
+Code: [github.com/wujenny15/qpears](https://github.com/wujenny15/qpears)
+
+GitHub Pages (once the first deploy finishes): [https://wujenny15.github.io/qpears/](https://wujenny15.github.io/qpears/)
+
+### Custom domain
+
+Point the domain at GitHub Pages, not at Square, if this funny site should be the homepage.
+
+1. In the repo: **Settings → Pages → Custom domain**, type your domain, save.
+2. At your domain registrar, add DNS:
+
+**Apex domain** (`qpears.com` style):
+
+| Type | Name | Value |
+| --- | --- | --- |
+| A | @ | `185.199.108.153` |
+| A | @ | `185.199.109.153` |
+| A | @ | `185.199.110.153` |
+| A | @ | `185.199.111.153` |
+| CNAME | www | `wujenny15.github.io` |
+
+GitHub will then issue HTTPS. Keep Square on `qpears.square.site`, or later use a subdomain such as `shop.yourdomain.com` for checkout.
+
 ## House stories
 
 These are the official records. They are also mostly gossip.
