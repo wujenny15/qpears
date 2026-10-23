@@ -25,26 +25,25 @@ Pages:
 
 Code: [github.com/wujenny15/qpears](https://github.com/wujenny15/qpears)
 
-GitHub Pages (once the first deploy finishes): [https://wujenny15.github.io/qpears/](https://wujenny15.github.io/qpears/)
+GitHub Pages: [https://wujenny15.github.io/qpears/](https://wujenny15.github.io/qpears/)
 
-### Custom domain
+Custom domain: [https://qpears.com](https://qpears.com) (after DNS)
 
-Point the domain at GitHub Pages, not at Square, if this funny site should be the homepage.
+### DNS for qpears.com
 
-1. In the repo: **Settings → Pages → Custom domain**, type your domain, save.
-2. At your domain registrar, add DNS:
-
-**Apex domain** (`qpears.com` style):
+At the registrar that owns `qpears.com`, set:
 
 | Type | Name | Value |
 | --- | --- | --- |
-| A | @ | `185.199.108.153` |
-| A | @ | `185.199.109.153` |
-| A | @ | `185.199.110.153` |
-| A | @ | `185.199.111.153` |
-| CNAME | www | `wujenny15.github.io` |
+| A | `@` | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+| CNAME | `www` | `wujenny15.github.io` |
 
-GitHub will then issue HTTPS. Keep Square on `qpears.square.site`, or later use a subdomain such as `shop.yourdomain.com` for checkout.
+In the repo: **Settings → Pages → Custom domain** → `qpears.com` → Save, then tick **Enforce HTTPS** when GitHub offers it.
+
+Checkout stays at [qpears.square.site](https://qpears.square.site).
 
 ## House stories
 
