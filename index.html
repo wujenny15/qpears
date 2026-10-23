@@ -10,29 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div class="announce">Complimentary shipping for parcels smaller than a secret</div>
-
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a class="brand" href="index.html">
-        <img src="assets/logo.svg" alt="">
-        Qpears
-      </a>
-      <nav>
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <div class="header-actions">
-        <a class="btn btn-primary btn-small" href="shop.html">Shop objects</a>
-        <button class="nav-toggle" type="button" aria-label="Open menu">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </div>
-  </header>
+<body data-page="home" data-announce="Complimentary shipping for parcels smaller than a secret">
+  <div data-layout="header"></div>
 
   <main>
     <section class="hero">
@@ -62,44 +41,7 @@
         </div>
         <a class="btn btn-ghost" href="shop.html">View all</a>
       </div>
-      <div class="grid">
-        <article class="product">
-          <div class="product-art art-gold"><img src="assets/seed.svg" alt=""></div>
-          <div class="product-body">
-            <h3>Seed of Doubt</h3>
-            <p>A single pear seed, archived in a jar you will immediately lose.</p>
-            <div class="product-meta"><span class="price">$4</span><span>Limited</span></div>
-            <button class="btn btn-primary" data-buy type="button">Add to bag</button>
-          </div>
-        </article>
-        <article class="product">
-          <div class="product-art art-leaf"><img src="assets/sticker.svg" alt=""></div>
-          <div class="product-body">
-            <h3>Support Sticker</h3>
-            <p>Emotional, unlicensed, and likely to peel during an important meeting.</p>
-            <div class="product-meta"><span class="price">$3</span><span>In stock</span></div>
-            <button class="btn btn-primary" data-buy type="button">Add to bag</button>
-          </div>
-        </article>
-        <article class="product">
-          <div class="product-art art-cream"><img src="assets/keychain.svg" alt=""></div>
-          <div class="product-body">
-            <h3>Miniature Pear</h3>
-            <p>A keychain so small your keys will form a committee about it.</p>
-            <div class="product-meta"><span class="price">$8</span><span>In stock</span></div>
-            <button class="btn btn-primary" data-buy type="button">Add to bag</button>
-          </div>
-        </article>
-        <article class="product">
-          <div class="product-art art-coral"><img src="assets/soap.svg" alt=""></div>
-          <div class="product-body">
-            <h3>Pocket Soap</h3>
-            <p>Washes one finger. Ambition is sold as a separate SKU.</p>
-            <div class="product-meta"><span class="price">$6</span><span>In stock</span></div>
-            <button class="btn btn-primary" data-buy type="button">Add to bag</button>
-          </div>
-        </article>
-      </div>
+      <div class="grid" data-catalog data-featured="true"></div>
     </section>
 
     <section class="trust wrap">
@@ -118,11 +60,8 @@
     </section>
 
     <section class="wrap section story">
-      <div class="story-panel">
-        <div>
-          <strong>8</strong>
-          objects currently pretending to be inventory
-        </div>
+      <div class="story-panel story-panel-art">
+        <img src="assets/pear-stickers.svg" alt="A grid of silly pear mascots">
       </div>
       <div class="story-copy">
         <p class="eyebrow">Atelier notes</p>
@@ -133,42 +72,10 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <h2>Qpears</h2>
-        <p>A boutique of small things, with Square at the till and a pear in charge of brand.</p>
-      </div>
-      <div>
-        <h3>Shop</h3>
-        <ul>
-          <li><a href="shop.html">All objects</a></li>
-          <li><a href="shop.html">Seeds &amp; crumbs</a></li>
-          <li><a href="shop.html">Wearable jokes</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>House</h3>
-        <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="README.md">Stories</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Checkout</h3>
-        <ul>
-          <li>Square Online</li>
-          <li>Receipts in real money</li>
-          <li>Sizes in vibes</li>
-        </ul>
-      </div>
-    </div>
-    <div class="wrap legal">
-      <span>© 2026 Qpears. All pears legally distinct from actual pears.</span>
-      <a href="contact.html">Customer care, such as it is</a>
-    </div>
-  </footer>
-  <script src="shop.js"></script>
+  <div data-layout="footer"></div>
+  <script src="js/config.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/catalog.js"></script>
+  <script src="js/shop.js"></script>
 </body>
 </html>

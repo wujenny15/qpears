@@ -1,8 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-hidden="true">
-  <rect width="160" height="160" rx="28" fill="#d7ecc0"/>
-  <circle cx="80" cy="80" r="48" fill="#fffaf2" stroke="#1f2a1a" stroke-width="4"/>
-  <path d="M80 48c12 6 26 24 26 40 0 16-12 28-26 28s-26-12-26-28c0-16 14-34 26-40z" fill="#7cb342"/>
-  <circle cx="70" cy="84" r="3" fill="#1f2a1a"/>
-  <circle cx="90" cy="84" r="3" fill="#1f2a1a"/>
-  <path d="M70 96c6 6 14 6 20 0" fill="none" stroke="#1f2a1a" stroke-width="3" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240" fill="none">
+  <ellipse cx="96" cy="38" rx="22" ry="11" transform="rotate(-30 96 38)" fill="#7A9548"/>
+  <path d="M118 70c8-16 10-26 2-38" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M116 68c22 8 44 32 40 62-4 32-28 54-58 52-30-2-46-28-42-58 4-28 20-50 42-56 6-2 12-1 18 0z" fill="#C4C86A"/>
+  <circle cx="102" cy="112" r="4.5" fill="#2A2620"/>
+  <circle cx="128" cy="110" r="4.5" fill="#2A2620"/>
+  <path d="M106 130c8 8 18 8 24 0" fill="none" stroke="#2A2620" stroke-width="4" stroke-linecap="round"/>
+  <path d="M78 124 L60 116" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M154 122 L172 114" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M100 180 L92 198" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M134 180 L146 198" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <text x="168" y="72" transform="rotate(12 168 72)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="16" fill="#6B5A38">STICK</text>
+  <text x="174" y="92" transform="rotate(12 174 92)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="16" fill="#6B5A38">AROUND</text>
+  <path d="M48 168c0-5 3-8 7-8s6 3 6 7c0 7-13 8-13 16" fill="none" stroke="#C48A8A" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="48" cy="188" r="2" fill="#C48A8A"/>
 </svg>

@@ -1,7 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-hidden="true">
-  <rect width="160" height="160" rx="28" fill="#fff3d6"/>
-  <circle cx="80" cy="36" r="10" fill="none" stroke="#1f2a1a" stroke-width="5"/>
-  <path d="M80 46v10" stroke="#1f2a1a" stroke-width="4"/>
-  <path d="M80 56c14 6 28 24 28 40 0 16-12 28-28 28s-28-12-28-28c0-16 14-34 28-40z" fill="#7cb342"/>
-  <circle cx="94" cy="42" r="14" fill="#f2d56b" stroke="#1f2a1a" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240" fill="none">
+  <circle cx="110" cy="28" r="12" stroke="#4E3A28" stroke-width="5"/>
+  <path d="M110 40v10" stroke="#4E3A28" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="92" cy="58" rx="18" ry="9" transform="rotate(-26 92 58)" fill="#7A9548"/>
+  <path d="M118 86c6-12 8-22 2-32" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M116 84c18 6 36 26 32 50-4 26-22 44-46 42-24-2-38-24-34-48 4-22 18-42 34-46 5-2 10-1 14 2z" fill="#C4C86A"/>
+  <circle cx="104" cy="118" r="4" fill="#2A2620"/>
+  <circle cx="126" cy="116" r="4" fill="#2A2620"/>
+  <path d="M82 128 L68 136 L58 122" fill="none" stroke="#4E3A28" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M148 128 L162 136 L172 122" fill="none" stroke="#4E3A28" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M102 176 L96 190" fill="none" stroke="#4E3A28" stroke-width="7" stroke-linecap="round"/>
+  <path d="M130 174 L142 188" fill="none" stroke="#4E3A28" stroke-width="7" stroke-linecap="round"/>
+  <text x="160" y="80" transform="rotate(8 160 80)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="20" fill="#6B5A38">TINY!!</text>
 </svg>

@@ -19,7 +19,21 @@ Pages:
 - `about.html` — the house story
 - `contact.html` — the inflatable cashier
 
-**Add to bag** opens [https://qpears.square.site](https://qpears.square.site). Change that URL in `shop.js` if the Square site ever moves.
+## How the template is kept
+
+This is a static storefront skeleton. Pages only hold page content. Shared pieces live in one place:
+
+| File | What to edit |
+| --- | --- |
+| `js/config.js` | Site name, Square URL, nav, product list and prices |
+| `js/layout.js` | Header and footer markup |
+| `js/catalog.js` | How product cards are drawn |
+| `js/shop.js` | Add to bag → Square |
+| `styles.css` | Look and layout |
+
+To add a product, append an object to `PRODUCTS` in `js/config.js`. To change checkout, change `SITE.squareUrl`. You do not need to copy the header into every HTML file.
+
+**Add to bag** opens [https://qpears.square.site](https://qpears.square.site).
 
 ## Live site
 

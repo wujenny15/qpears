@@ -1,6 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-hidden="true">
-  <rect width="160" height="160" rx="28" fill="#d7ecc0"/>
-  <circle cx="80" cy="84" r="42" fill="#e85d4c"/>
-  <path d="M80 58c12 6 24 20 24 34 0 14-10 24-24 24s-24-10-24-24c0-14 12-28 24-34z" fill="#7cb342"/>
-  <path d="M60 52c6-10 14-8 18 0M90 48c8-12 16-6 16 4" fill="none" stroke="#f2d56b" stroke-width="5" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240" fill="none">
+  <ellipse cx="96" cy="36" rx="20" ry="11" transform="rotate(-18 96 36)" fill="#6A6248"/>
+  <path d="M118 68c6-14 8-24 2-36" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M116 66c22 8 44 32 40 62-4 32-28 54-58 52-30-2-46-28-42-58 4-28 20-50 42-56 6-2 12-1 18 0z" fill="#4A4A42"/>
+  <path d="M116 80c12 6 22 20 20 36-2 16-14 28-28 26s-24-14-22-30c2-16 12-28 24-32z" fill="#B85C4A"/>
+  <circle cx="104" cy="118" r="4" fill="#F4F0E6"/>
+  <circle cx="128" cy="116" r="4" fill="#F4F0E6"/>
+  <path d="M160 70c6-10 14-8 16 2M174 64c6-12 14-8 16 4" fill="none" stroke="#D2A24A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M80 176 L70 194" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M136 174 L152 192 L170 184" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="158" y="120" transform="rotate(12 158 120)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="18" fill="#6B5A38">THIS IS</text>
+  <text x="168" y="142" transform="rotate(12 168 142)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="18" fill="#6B5A38">FINE</text>
 </svg>

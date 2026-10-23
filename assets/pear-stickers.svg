@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1040" role="img" aria-labelledby="title">
+  <title id="title">Silly pear mascots</title>
+  <rect width="960" height="1040" fill="#fff"/>
+
+  <!-- 1 waving lime pear -->
+  <g transform="translate(40,30)">
+    <ellipse cx="86" cy="42" rx="28" ry="14" transform="rotate(-28 86 42)" fill="#7A9548"/>
+    <path d="M74 48c10-5 22-12 32-20" fill="none" stroke="#4E3A28" stroke-width="6" stroke-linecap="round"/>
+    <path d="M118 78c8-18 12-30 4-44" fill="none" stroke="#4E3A28" stroke-width="9" stroke-linecap="round"/>
+    <path d="M118 76c22 8 48 32 44 64-4 36-30 60-62 58-34-2-54-30-50-62 4-30 20-54 44-62 8-3 16-2 24 2z" fill="#C4C86A"/>
+    <circle cx="100" cy="118" r="4.5" fill="#2A2620"/>
+    <circle cx="126" cy="116" r="4.5" fill="#2A2620"/>
+    <path d="M104 136c8 8 18 8 26 0" fill="none" stroke="#2A2620" stroke-width="4" stroke-linecap="round"/>
+    <path d="M78 128 L58 142 L44 120" fill="none" stroke="#4E3A28" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M150 130 L170 142 L186 120" fill="none" stroke="#4E3A28" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M100 194 L100 212 L84 222" fill="none" stroke="#4E3A28" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M132 192 L150 208 L170 200" fill="none" stroke="#4E3A28" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="8" y="268" transform="rotate(-7 8 268)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="26" fill="#6B5A38">QPEARS?</text>
+    <path d="M210 70c2-14 12-22 24-20 10 2 18 10 16 20-2 8-8 12-14 16-6 4-8 8-8 14" fill="none" stroke="#D2A24A" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="228" cy="112" r="5.5" fill="#D2A24A"/>
+  </g>
+
+  <!-- 2 dusty blue pear, one eye -->
+  <g transform="translate(350,36)">
+    <ellipse cx="90" cy="40" rx="26" ry="13" transform="rotate(-20 90 40)" fill="#6F8A72"/>
+    <path d="M112 74c6-16 8-28 0-40" fill="none" stroke="#4E3A28" stroke-width="9" stroke-linecap="round"/>
+    <path d="M108 72c24 10 46 34 42 66-4 34-28 58-60 54-32-4-50-32-44-64 6-30 24-54 48-60 5-2 10-1 14 4z" fill="#A9B7AE"/>
+    <path d="M86 86c18 8 34 28 30 52-4 24-24 40-46 36-20-4-32-24-28-46 4-22 18-38 34-44z" fill="#8AA0B0"/>
+    <circle cx="128" cy="118" r="7" fill="#2A2620"/>
+    <circle cx="130" cy="116" r="2.2" fill="#F4F0E6"/>
+    <path d="M140 124l12 2" fill="none" stroke="#2A2620" stroke-width="4" stroke-linecap="round"/>
+    <path d="M78 188 L70 208" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M132 186 L150 204 L166 196" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="176" y="96" transform="rotate(9 176 96)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="20" fill="#4A5E68">FOCUS</text>
+    <text x="180" y="118" transform="rotate(9 180 118)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="20" fill="#4A5E68">AND</text>
+    <text x="184" y="140" transform="rotate(9 184 140)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="20" fill="#4A5E68">ROLL</text>
+    <path d="M232 150l8 12M244 146l6 14M254 152l4 9" stroke="#4A5E68" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- 3 easy sage pear -->
+  <g transform="translate(680,40)">
+    <ellipse cx="88" cy="38" rx="24" ry="12" transform="rotate(-34 88 38)" fill="#7A9548"/>
+    <path d="M114 72c8-16 10-28 2-40" fill="none" stroke="#4E3A28" stroke-width="9" stroke-linecap="round"/>
+    <path d="M112 70c22 8 46 34 42 66-4 34-28 58-60 56-32-2-50-30-46-62 4-30 22-54 44-62 7-3 13-2 20 2z" fill="#B7C4A4"/>
+    <circle cx="96" cy="114" r="4.5" fill="#2A2620"/>
+    <circle cx="122" cy="112" r="4.5" fill="#2A2620"/>
+    <path d="M100 132c8 7 18 7 24 0" fill="none" stroke="#2A2620" stroke-width="4" stroke-linecap="round"/>
+    <path d="M72 128c-12 4-20 0-22-10" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M150 128c12 4 20 0 22-10" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M96 190 L90 210" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M128 190 L136 210" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <text x="154" y="64" transform="rotate(12 154 64)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="18" fill="#5A6E58">TAKE</text>
+    <text x="160" y="86" transform="rotate(12 160 86)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="18" fill="#5A6E58">IT</text>
+    <text x="166" y="108" transform="rotate(12 166 108)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="18" fill="#5A6E58">EASY</text>
+    <path d="M228 78c0-6 4-10 8-10 4 0 6 4 6 8 0 8-14 10-14 18" fill="none" stroke="#C48A8A" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="228" cy="100" r="2.2" fill="#C48A8A"/>
+  </g>
+
+  <!-- 4 tiny beige pear -->
+  <g transform="translate(55,360)">
+    <ellipse cx="92" cy="36" rx="22" ry="11" transform="rotate(-26 92 36)" fill="#8A7A52"/>
+    <path d="M112 68c6-14 8-26 0-36" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M110 66c20 8 40 30 36 58-4 30-26 52-54 50-28-2-44-28-40-56 4-26 20-48 40-54 6-2 12-1 18 2z" fill="#D8C7A4"/>
+    <g fill="#C2AE86">
+      <ellipse cx="84" cy="92" rx="2.2" ry="5" transform="rotate(-18 84 92)"/>
+      <ellipse cx="78" cy="114" rx="2" ry="4.5"/>
+      <ellipse cx="86" cy="132" rx="1.8" ry="4" transform="rotate(-16 86 132)"/>
+    </g>
+    <circle cx="98" cy="108" r="4" fill="#2A2620"/>
+    <circle cx="122" cy="106" r="4" fill="#2A2620"/>
+    <path d="M102 124c6 6 14 6 20 0" fill="none" stroke="#2A2620" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M76 120 L58 128 L48 112" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M146 120 L164 128 L174 112" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M96 176 L92 194" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M126 176 L138 192" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <text x="8" y="236" transform="rotate(-6 8 236)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="24" fill="#6B5A38">KEEP IT TINY</text>
+    <path d="M198 86c0-5 3-8 7-8s6 3 6 7c0 7-13 8-13 16" fill="none" stroke="#C48A8A" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="198" cy="106" r="2" fill="#C48A8A"/>
+  </g>
+
+  <!-- 5 charcoal pear -->
+  <g transform="translate(360,350)">
+    <ellipse cx="88" cy="34" rx="20" ry="11" transform="rotate(-18 88 34)" fill="#6A6248"/>
+    <path d="M110 66c6-14 8-24 2-36" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M108 64c22 8 44 32 40 62-4 32-28 54-58 52-30-2-46-30-42-58 4-28 20-50 42-56 6-2 12-1 18 0z" fill="#4A4A42"/>
+    <path d="M108 78c12 6 22 20 20 36-2 16-14 28-28 26s-24-14-22-30c2-16 12-28 24-32z" fill="#B85C4A"/>
+    <circle cx="96" cy="118" r="4.5" fill="#F4F0E6"/>
+    <circle cx="122" cy="116" r="4.5" fill="#F4F0E6"/>
+    <path d="M78 178 L70 196" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M132 176 L148 194 L164 186" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="168" y="108" transform="rotate(10 168 108)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="22" fill="#6B5A38">STAY</text>
+    <text x="176" y="134" transform="rotate(10 176 134)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="22" fill="#6B5A38">TRUE</text>
+    <path d="M232 86c0-5 3-8 7-8s6 3 6 7c0 7-13 8-13 16" fill="none" stroke="#C48A8A" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="232" cy="106" r="2" fill="#C48A8A"/>
+  </g>
+
+  <!-- 6 star pear -->
+  <g transform="translate(680,348)">
+    <ellipse cx="90" cy="36" rx="22" ry="11" transform="rotate(-40 90 36)" fill="#7A9548"/>
+    <path d="M114 70c8-16 10-26 2-38" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M112 68c22 8 44 32 40 62-4 32-28 54-58 52-30-2-46-28-42-58 4-28 20-50 42-56 6-2 12-1 18 0z" fill="#8FAE6A"/>
+    <path d="M78 86h18l6-16 6 16h18l-14 12 6 16-16-10-16 10 6-16z" fill="#D2A24A"/>
+    <circle cx="98" cy="120" r="4.2" fill="#2A2620"/>
+    <circle cx="124" cy="118" r="4.2" fill="#2A2620"/>
+    <path d="M102 136c8 7 16 7 22 0" fill="none" stroke="#2A2620" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M74 126 L56 118" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M152 124 L170 116" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M96 180 L90 198" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M130 180 L140 198" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <text x="158" y="70" transform="rotate(11 158 70)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="18" fill="#6B5A38">BE YOUR</text>
+    <text x="166" y="94" transform="rotate(11 166 94)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="18" fill="#6B5A38">OWN</text>
+    <text x="174" y="118" transform="rotate(11 174 118)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="18" fill="#6B5A38">STAR</text>
+    <path d="M236 128l4 10 10 2-8 6 2 10-8-6-8 6 2-10-8-6 10-2z" fill="#D2A24A"/>
+  </g>
+
+  <!-- 7 bold pear -->
+  <g transform="translate(40,680)">
+    <ellipse cx="94" cy="34" rx="20" ry="11" transform="rotate(-22 94 34)" fill="#6A6248"/>
+    <path d="M114 66c6-14 8-24 0-36" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M70 108c-18-6-28-24-16-36 18-6 32 4 40 18" fill="#3F3A34" stroke="#2A2620" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M112 64c22 8 44 32 40 62-4 32-28 54-58 52-30-2-46-28-42-58 4-28 20-50 42-56 6-2 12-1 18 0z" fill="#3F3A34"/>
+    <circle cx="122" cy="108" r="6.5" fill="#F4F0E6"/>
+    <circle cx="124" cy="106" r="2.4" fill="#2A2620"/>
+    <path d="M78 176 L68 194" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M132 174 L148 192 L166 184" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="12" y="132" transform="rotate(-18 12 132)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="28" fill="#6B5A38">BE</text>
+    <text x="4" y="162" transform="rotate(-18 4 162)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="28" fill="#6B5A38">BOLD</text>
+  </g>
+
+  <!-- 8 cheer pear -->
+  <g transform="translate(350,678)">
+    <ellipse cx="92" cy="34" rx="20" ry="11" transform="rotate(-16 92 34)" fill="#C2B25A"/>
+    <path d="M112 66c6-14 8-24 2-36" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M110 64c22 8 44 32 40 62-4 32-28 54-58 52-30-2-46-28-42-58 4-28 20-50 42-56 6-2 12-1 18 0z" fill="#E2C96A"/>
+    <circle cx="98" cy="108" r="4.2" fill="#2A2620"/>
+    <circle cx="124" cy="106" r="4.2" fill="#2A2620"/>
+    <path d="M102 124c8 8 18 8 26 0" fill="none" stroke="#2A2620" stroke-width="4" stroke-linecap="round"/>
+    <path d="M74 122 L56 114" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M150 120 L168 112" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M96 176 L88 194" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M130 176 L142 194" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <text x="20" y="236" transform="rotate(-5 20 236)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="26" fill="#B85C4A">CHEER UP!</text>
+    <path d="M168 86l3 8 8 2-6 5 2 8-7-4-7 4 2-8-6-5 8-2z" fill="#D2A24A"/>
+  </g>
+
+  <!-- 9 coo pear -->
+  <g transform="translate(680,678)">
+    <ellipse cx="90" cy="36" rx="22" ry="11" transform="rotate(-30 90 36)" fill="#6A7A88"/>
+    <path d="M114 70c8-16 10-26 2-38" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M112 68c22 8 44 32 40 62-4 32-28 54-58 52-30-2-46-28-42-58 4-28 20-50 42-56 6-2 12-1 18 0z" fill="#8A9AAA"/>
+    <circle cx="128" cy="110" r="9" fill="#F4F0E6" stroke="#2A2620" stroke-width="3"/>
+    <circle cx="130" cy="110" r="3.4" fill="#2A2620"/>
+    <path d="M78 176 L70 194" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+    <path d="M132 174 L148 192 L164 184" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="168" y="78" transform="rotate(8 168 78)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="20" fill="#4A5E68">COO</text>
+    <text x="176" y="102" transform="rotate(8 176 102)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="20" fill="#4A5E68">COO</text>
+    <path d="M232 58c6-8 14-8 16 0M244 50c6-10 14-8 16 2M256 58c4-8 12-8 14 0" stroke="#4A5E68" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

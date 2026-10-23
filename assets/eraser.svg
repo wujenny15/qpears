@@ -1,6 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-hidden="true">
-  <rect width="160" height="160" rx="28" fill="#f7c7c1"/>
-  <rect x="40" y="62" width="80" height="40" rx="8" fill="#e85d4c" stroke="#1f2a1a" stroke-width="3"/>
-  <rect x="40" y="62" width="22" height="40" fill="#fffaf2" stroke="#1f2a1a" stroke-width="3"/>
-  <path d="M78 54c8 4 16 14 16 24 0 8-6 14-16 14s-16-6-16-14c0-10 8-20 16-24z" fill="#7cb342"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240" fill="none">
+  <ellipse cx="96" cy="38" rx="20" ry="11" transform="rotate(-22 96 38)" fill="#C48A8A"/>
+  <path d="M118 70c6-14 8-24 2-36" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M116 68c22 8 44 32 40 62-4 32-28 54-58 52-30-2-46-28-42-58 4-28 20-50 42-56 6-2 12-1 18 0z" fill="#E2B4B8"/>
+  <path d="M78 96h26v28H78z" fill="#F4F0E6" stroke="#2A2620" stroke-width="4"/>
+  <circle cx="122" cy="112" r="4.5" fill="#2A2620"/>
+  <circle cx="144" cy="110" r="4.5" fill="#2A2620"/>
+  <path d="M80 176 L70 194" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M136 174 L152 192 L170 184" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="200" transform="rotate(-12 16 200)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="22" fill="#B85C4A">OOPS</text>
 </svg>

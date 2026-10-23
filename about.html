@@ -9,28 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div class="announce">A house with standards. The standards are tiny.</div>
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a class="brand" href="index.html">
-        <img src="assets/logo.svg" alt="">
-        Qpears
-      </a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="about.html" aria-current="page">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <div class="header-actions">
-        <a class="btn btn-primary btn-small" href="shop.html">Shop objects</a>
-        <button class="nav-toggle" type="button" aria-label="Open menu">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </div>
-  </header>
+<body data-page="about" data-announce="A house with standards. The standards are tiny.">
+  <div data-layout="header"></div>
 
   <main class="wrap">
     <section class="page-hero">
@@ -41,6 +21,10 @@
         <p>Checkout runs through Square because someone has to be the adult. That someone is software.</p>
       </div>
     </section>
+
+    <figure class="sticker-sheet">
+      <img src="assets/pear-stickers.svg" alt="Nine silly pear mascots in a sticker grid with handwritten captions">
+    </figure>
 
     <section class="section trust" style="border:1px solid var(--line)">
       <article>
@@ -58,33 +42,8 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <h2>Qpears</h2>
-        <p>Founded in a group chat. Styled like a gallery. Stocked like a joke shop.</p>
-      </div>
-      <div>
-        <h3>Shop</h3>
-        <ul><li><a href="shop.html">All objects</a></li></ul>
-      </div>
-      <div>
-        <h3>House</h3>
-        <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Reading</h3>
-        <ul><li><a href="README.md">Funny stories</a></li></ul>
-      </div>
-    </div>
-    <div class="wrap legal">
-      <span>© 2026 Qpears</span>
-      <a href="shop.html">Return to the objects</a>
-    </div>
-  </footer>
-  <script src="shop.js"></script>
+  <div data-layout="footer"></div>
+  <script src="js/config.js"></script>
+  <script src="js/layout.js"></script>
 </body>
 </html>

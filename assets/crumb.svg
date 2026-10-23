@@ -1,6 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-hidden="true">
-  <rect width="160" height="160" rx="28" fill="#fff3d6"/>
-  <path d="M58 90c4-18 22-28 38-18 10 6 18 4 22-4 8 14 4 34-12 44-22 14-48 6-48-22z" fill="#c9842a"/>
-  <circle cx="78" cy="88" r="3" fill="#7a4b12"/>
-  <circle cx="96" cy="98" r="2.5" fill="#7a4b12"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240" fill="none">
+  <ellipse cx="96" cy="38" rx="20" ry="11" transform="rotate(-26 96 38)" fill="#8A7A52"/>
+  <path d="M118 70c6-14 8-24 2-36" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M116 68c22 8 44 32 40 62-4 32-28 54-58 52-30-2-46-28-42-58 4-28 20-50 42-56 6-2 12-1 18 0z" fill="#D2B36A"/>
+  <circle cx="104" cy="112" r="4.5" fill="#2A2620"/>
+  <circle cx="128" cy="110" r="4.5" fill="#2A2620"/>
+  <path d="M80 126 L64 118" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M152 124 L168 116" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M100 178 L92 196" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M134 176 L148 192" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <text x="158" y="74" transform="rotate(8 158 74)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="26" fill="#8A6A38">???</text>
 </svg>

@@ -1,6 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-hidden="true">
-  <rect width="160" height="160" rx="28" fill="#f2d56b"/>
-  <path d="M70 36h24v48c18 4 32 18 32 34 0 16-14 28-32 28s-32-12-32-28V36z" fill="#7cb342" stroke="#1f2a1a" stroke-width="3"/>
-  <path d="M70 48h24" stroke="#1f2a1a" stroke-width="3"/>
-  <circle cx="92" cy="108" r="4" fill="#1f2a1a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240" fill="none">
+  <ellipse cx="96" cy="38" rx="20" ry="11" transform="rotate(-20 96 38)" fill="#8A7A52"/>
+  <path d="M118 70c6-14 8-24 2-36" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M116 68c22 8 44 32 40 62-4 32-28 54-58 52-30-2-46-28-42-58 4-28 20-50 42-56 6-2 12-1 18 0z" fill="#D8C7A4"/>
+  <circle cx="104" cy="112" r="4.5" fill="#2A2620"/>
+  <circle cx="128" cy="110" r="4.5" fill="#2A2620"/>
+  <path d="M80 178c-10 18-4 28 10 28h18" fill="none" stroke="#4E3A28" stroke-width="10" stroke-linecap="round"/>
+  <path d="M134 176 L148 198 L168 190" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M78 124 L60 116" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M154 122 L172 114" fill="none" stroke="#4E3A28" stroke-width="8" stroke-linecap="round"/>
+  <text x="160" y="78" transform="rotate(10 160 78)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="18" fill="#6B5A38">JUST</text>
+  <text x="166" y="100" transform="rotate(10 166 100)" font-family="Marker Felt, Comic Sans MS, cursive" font-size="18" fill="#6B5A38">ONE</text>
 </svg>

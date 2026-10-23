@@ -9,28 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div class="announce">Customer care hours: whenever the pear is awake</div>
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a class="brand" href="index.html">
-        <img src="assets/logo.svg" alt="">
-        Qpears
-      </a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="about.html">About</a>
-        <a href="contact.html" aria-current="page">Contact</a>
-      </nav>
-      <div class="header-actions">
-        <a class="btn btn-primary btn-small" href="shop.html">Shop objects</a>
-        <button class="nav-toggle" type="button" aria-label="Open menu">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </div>
-  </header>
+<body data-page="contact" data-announce="Customer care hours: whenever the pear is awake">
+  <div data-layout="header"></div>
 
   <main class="wrap">
     <section class="page-hero">
@@ -56,30 +36,8 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <h2>Qpears</h2>
-        <p>We read every letter. We answer the ones we can find.</p>
-      </div>
-      <div>
-        <h3>Shop</h3>
-        <ul><li><a href="shop.html">All objects</a></li></ul>
-      </div>
-      <div>
-        <h3>House</h3>
-        <ul><li><a href="about.html">About</a></li></ul>
-      </div>
-      <div>
-        <h3>Hours</h3>
-        <ul><li>Whenever the intern pear is on shift</li></ul>
-      </div>
-    </div>
-    <div class="wrap legal">
-      <span>© 2026 Qpears</span>
-      <a href="index.html">Back to the front of house</a>
-    </div>
-  </footer>
-  <script src="shop.js"></script>
+  <div data-layout="footer"></div>
+  <script src="js/config.js"></script>
+  <script src="js/layout.js"></script>
 </body>
 </html>
