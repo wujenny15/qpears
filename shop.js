@@ -1,6 +1,4 @@
-// Paste your Square Online shop URL here to make every Buy button checkout for real.
-// Example: "https://qpears.square.site/s/shop"
-const SQUARE_SHOP_URL = "";
+const SQUARE_SHOP_URL = "https://qpears.square.site";
 
 function goToSquare(event) {
   if (SQUARE_SHOP_URL) {

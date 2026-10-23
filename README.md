@@ -1,6 +1,6 @@
 # Qpears
 
-A professional-looking shop for objects that could hide in a coat pocket and still file a complaint. The layout is a quiet boutique template. The inventory is a dare. Checkout is meant to run through Square once you paste a real shop URL into `shop.js`.
+A professional-looking shop for objects that could hide in a coat pocket and still file a complaint. The layout is a quiet boutique template. The inventory is a dare. Checkout lives at [qpears.square.site](https://qpears.square.site).
 
 ## Look at it locally
 
@@ -19,13 +19,7 @@ Pages:
 - `about.html` — the house story
 - `contact.html` — the inflatable cashier
 
-To make **Add to bag** a real checkout, set this in `shop.js`:
-
-```js
-const SQUARE_SHOP_URL = "https://your-shop.square.site/s/shop";
-```
-
-Until then, every buy button walks people to the contact desk, which is honest of it.
+**Add to bag** opens [https://qpears.square.site](https://qpears.square.site). Change that URL in `shop.js` if the Square site ever moves.
 
 ## House stories
 
