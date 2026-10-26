@@ -58,6 +58,7 @@
           <div>
             <h3>Care</h3>
             <ul>
+              <li><a href="mailto:${SITE.email}">${SITE.email}</a></li>
               <li>Keep away from actual fruit</li>
               <li>Do not eat the keychain</li>
             </ul>
@@ -72,5 +73,13 @@
 
   document.querySelector(".nav-toggle")?.addEventListener("click", () => {
     document.body.classList.toggle("nav-open");
+  });
+
+  document.querySelectorAll("[data-email]").forEach((el) => {
+    el.setAttribute("href", `mailto:${SITE.email}`);
+    if (!el.dataset.emailKeepLabel) el.textContent = SITE.email;
+  });
+  document.querySelectorAll("[data-email-form]").forEach((form) => {
+    form.setAttribute("action", `mailto:${SITE.email}`);
   });
 })();

@@ -2,7 +2,7 @@
 const SITE = {
   name: "Qpears",
   squareUrl: "https://qpears.square.site",
-  email: "hello@qpears.example",
+  email: "info@qpears.com",
   logo: "assets/logo.svg",
   year: 2026,
   nav: [
