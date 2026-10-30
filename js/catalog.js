@@ -7,7 +7,7 @@
       : "";
     return `
       <article class="product">
-        <div class="product-art ${product.art || ""}"><img src="${product.image}" alt=""></div>
+        <div class="product-art ${product.art || ""}"><img src="${product.image}" alt="Illustration of ${product.name}"></div>
         <div class="product-body">
           <h3>${product.name}</h3>
           <p>${blurb}</p>

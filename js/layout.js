@@ -50,9 +50,8 @@
           <div>
             <h3>House</h3>
             <ul>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="README.md">Stories</a></li>
+              <li><a href="about.html">About the shop</a></li>
+              <li><a href="contact.html">Contact the shop</a></li>
             </ul>
           </div>
           <div>
@@ -82,4 +81,54 @@
   document.querySelectorAll("[data-email-form]").forEach((form) => {
     form.setAttribute("action", `mailto:${SITE.email}`);
   });
+
+  const origin = SITE.url || "https://qpears.com";
+  const crumbs = {
+    shop: [
+      { name: "Home", path: "/" },
+      { name: "Shop", path: "/shop.html" }
+    ],
+    about: [
+      { name: "Home", path: "/" },
+      { name: "About", path: "/about.html" }
+    ],
+    contact: [
+      { name: "Home", path: "/" },
+      { name: "Contact", path: "/contact.html" }
+    ]
+  };
+  const graph = [
+    {
+      "@type": "Organization",
+      "@id": `${origin}/#organization`,
+      name: SITE.name,
+      url: `${origin}/`,
+      logo: `${origin}/assets/logo.jpg`,
+      email: SITE.email,
+      description: "A boutique for extremely small goods. Checkout is on Square."
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${origin}/#website`,
+      name: SITE.name,
+      url: `${origin}/`,
+      publisher: { "@id": `${origin}/#organization` }
+    }
+  ];
+  const trail = crumbs[page];
+  if (trail) {
+    graph.push({
+      "@type": "BreadcrumbList",
+      itemListElement: trail.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.name,
+        item: origin + item.path
+      }))
+    });
+  }
+  const script = document.createElement("script");
+  script.type = "application/ld+json";
+  script.textContent = JSON.stringify({ "@context": "https://schema.org", "@graph": graph });
+  document.head.appendChild(script);
 })();

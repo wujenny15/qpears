@@ -3,7 +3,8 @@ const SITE = {
   name: "Qpears",
   squareUrl: "https://qpears.square.site",
   email: "info@qpears.com",
-  logo: "assets/logo.svg",
+  logo: "assets/logo.jpg",
+  url: "https://qpears.com",
   year: 2026,
   nav: [
     { id: "home", href: "index.html", label: "Home" },
